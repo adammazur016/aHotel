@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aHotel</title>
+    <link rel="stylesheet" href="../styles/bootstrap.css"/>
+    <link rel="stylesheet" href="../styles/style.css" />
+
+</head>
+<body>
+    <section id="baner">
+        <!-- BANER --> 
+    </section>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">aHotel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="oferta.html">Oferta</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="cennik.html">Cennik</a>
+            </li>
+    </nav>
+
+    <!--OFERTA-->
+    <section id="oferta">
+        <div class="row">
+            <div class="col-md-4 mt-5 animationLeft">
+                <!--PHOTO-->
+                <img class="img-offer ml-5" src="../images/room1.jpg" onclick="show(0)">
+                <!--DESC-->
+                <img class="strzalka" src="../images/strzalka.png">
+                <p class="opis">Pokój chata drwala</p>
+            </div>
+            <div class="col-md-4 mt-5 animationTop">
+                <!--PHOTO-->
+                <img class="img-offer ml-5" src="../images/room2.jpg" onclick="show(1)">
+                <!--DESC-->
+                <img class="strzalka" src="../images/strzalka.png">
+                <p class="opis">Pokój dom z grochu</p>
+            </div>
+            <div class="col-md-4 mt-5 animationRight">
+                <!--PHOTO-->
+                <img class="img-offer ml-5" src="../images/room3.jpg" onclick="show(2)">
+                <!--DESC-->
+                <img class="strzalka" src="../images/strzalka.png">
+                <p class="opis">Pokój Exclusive</p>
+            </div>
+            <div class="col-md-4 mt-5 animationLeft">
+                <!--PHOTO-->
+                <img class="img-offer ml-5" src="../images/room4.jpg "onclick="show(3)">
+                <!--DESC-->
+                <img class="strzalka" src="../images/strzalka.png">
+                <p class="opis">Pokój Obraz</p>
+            </div>
+            <div class="col-md-4 mt-5 animationBottom">
+                <!--PHOTO-->
+                <img class="img-offer ml-5" src="../images/room5.jpg" onclick="show(4)">
+                <!--DESC-->
+                <img class="strzalka" src="../images/strzalka.png">
+                <p class="opis">Pokój black-white</p>
+            </div>
+            <div class="col-md-4 mt-5 animationRight">
+                <!--PHOTO-->
+                <img class="img-offer ml-5" src="../images/room6.jpg" onclick="show(5)">
+                <!--DESC-->
+                <img class="strzalka" src="../images/strzalka.png">
+                <p class="opis">Pokój na samą noc</p>
+            </div>
+            </section>
+    </section>
+
+    <!--BOOTSTRAP JS/JQUERY/POPPER-->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
