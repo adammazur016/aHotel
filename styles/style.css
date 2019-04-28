@@ -111,6 +111,10 @@ embed {
     min-height: 100vh;
 }
 
+#formularz {
+    background-color: #E7717D;
+}
+
 .strzalka {
     width: 50%;
     display: block;
