@@ -5,3 +5,7 @@ function show(i){
     opis[i].classList.toggle("d1");
     zdjecie[i].classList.toggle("blur");
 }
+
+if(window.pageYOffset==200){
+    
+}
