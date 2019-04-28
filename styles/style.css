@@ -41,7 +41,7 @@ embed {
 }
 
 .color2 {
-    background-color: #3FEEE6;
+    background-color: #FC4A1A;
 }
 
 #landing h1 {
@@ -83,7 +83,7 @@ embed {
     background-image: url('../images/offer.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .strzalka {
