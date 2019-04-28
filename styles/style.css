@@ -16,20 +16,37 @@ embed {
 
 #landing {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
+}
+
+.element {
+    height: 300px;;
+    width:100%;
+    text-align: center;
+}
+
+.elementimg {
+    width:200px;
 }
 
 #landing img {
     width: 100%;
-    height: 80vh;
+    height: 40vh;
     filter: blur(10px);
     position: relative;
 }
 
+.color {
+    background-color: #242582;
+}
+
+.color2 {
+    background-color: #3FEEE6;
+}
 
 #landing h1 {
     position: relative;
-    top: -60vh;
+    top: -30vh;
     color: white;
     text-shadow: 0 0 10px #FF0000, 0 0 10px black;
     animation: landingHeader 2s ;
@@ -37,7 +54,7 @@ embed {
 
 #landingBtn {
     position: relative;
-    top: -55vh;
+    top: -25vh;
     animation: landingBtn 2s ;
 }
 
@@ -53,6 +70,7 @@ embed {
 .img-offer:hover {
     border-radius: 12.5px;
     transform: rotate(-5deg) ; 
+    cursor: pointer;
 }
 
 .btn-offer {
@@ -159,8 +177,8 @@ table tr:nth-child(2n+1){
 }
 @keyframes
 landingHeader {
-    from {top: 0px;}
-    to {top: -60vh;}
+    from {top: -500vh;}
+    to {top: -30vh;}
 }
 
 @keyframes
