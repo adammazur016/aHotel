@@ -10,7 +10,7 @@ var navbar = document.querySelector(".navbar");
 
 window.setInterval(
     function(){
-        if(window.pageYOffset>=190){
+        if(window.pageYOffset>=220){
             navbar.classList.add("sticky");
         } else {
             navbar.classList.remove("sticky");

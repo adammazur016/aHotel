@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato';
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -104,11 +105,10 @@ embed {
 }
 
 #oferta {
-    /*background-image: url('../images/offer.jpg');
+    background-image: url('../images/offer.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 100vh;*/
-    background-color: #182628;
+    min-height: 100vh;
 }
 
 .strzalka {
