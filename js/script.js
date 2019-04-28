@@ -6,6 +6,13 @@ function show(i){
     zdjecie[i].classList.toggle("blur");
 }
 
-if(window.pageYOffset==200){
-    
-}
+var navbar = document.querySelector(".navbar");
+
+window.setInterval(
+    function(){
+        if(window.pageYOffset>=190){
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    },10);

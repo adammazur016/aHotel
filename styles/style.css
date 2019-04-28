@@ -4,6 +4,22 @@ body {
     font-family: 'Lato';
 }
 
+.navbar {
+    z-index: 999 !important;
+    width: 100%;
+}
+
+#hotel {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#kontakt {
+    background-color:#65CCB8;
+}
+
 .sticky {
     position: fixed;
     top:0;
@@ -49,7 +65,7 @@ embed {
 }
 
 .color2 {
-    background-color: #fa8072;
+    background-color: #86C232;
 }
 
 #landing h1 {
@@ -88,10 +104,11 @@ embed {
 }
 
 #oferta {
-    background-image: url('../images/offer.jpg');
+    /*background-image: url('../images/offer.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 100vh;*/
+    background-color: #182628;
 }
 
 .strzalka {
